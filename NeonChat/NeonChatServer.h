@@ -94,7 +94,7 @@ inline __declspec(dllexport) void StartNeonChatServer()
 {
 	try
 	{
-		// We create the server here when we're ready to start it
+		// For demonstration, make sure your port is set to the proper port here
 		server = std::make_unique<NeonChatServer>(8888);
 		server->start();
 	}
