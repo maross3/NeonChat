@@ -75,6 +75,7 @@ public:
 };
 
 std::unique_ptr<NeonChatClient> client;
+// make sure you set these to your server address and port number
 const char* serverAddress = "127.0.0.1";
 const char* port = "8888";
 
